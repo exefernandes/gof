@@ -1,6 +1,9 @@
 <?php
 
-namespace Source\Loading;
+namespace Source\Loading\Tipos;
+
+use Source\Loading\DescontoInterface;
+use Source\Loading\Vendas;
 
 class PM implements DescontoInterface
 {

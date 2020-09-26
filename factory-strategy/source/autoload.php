@@ -1,6 +1,7 @@
 <?php
 
 spl_autoload_register(function ($class){
+    // var_dump($class);
     $prefix = "Source\\";
     $baseDir = __DIR__."/";
     $len = strlen($prefix);
